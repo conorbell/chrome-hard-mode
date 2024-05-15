@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Chrome Hard Mode",
+  "version": "1.0",
+  "description": "Make your web experience a living nightmare",
+  "host_permissions": ["https://*/*"],
+
+  "action": {
+    "default_popup": "index.html"
+  },
+  "background": {
+    "service_workers": "./background.js",
+    "type": "module"
+  },
+  "permissions": ["tabs", "activeTab", "downloads", "scripting"]
+}
