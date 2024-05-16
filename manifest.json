@@ -3,14 +3,14 @@
   "name": "Chrome Hard Mode",
   "version": "1.0",
   "description": "Make your web experience a living nightmare",
-  "host_permissions": ["https://*/*"],
+  "host_permissions": ["<all_urls>"],
 
   "action": {
-    "default_popup": "index.html"
+    "default_popup": "index.html",
+    "default_title": "Click Me"
   },
   "background": {
-    "service_workers": "./background.js",
-    "type": "module"
+    "service_worker": "service-worker.js"
   },
   "permissions": ["tabs", "activeTab", "downloads", "scripting"]
 }
