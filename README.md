@@ -13,3 +13,5 @@ To deploy this project run
 ```
 
 Then add it to your extensions on chrome, selecting the dist folder
+
+In the pop up select Install GSAP first and then click the increase difficulty button
