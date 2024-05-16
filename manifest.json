@@ -9,8 +9,6 @@
     "default_popup": "index.html",
     "default_title": "Click Me"
   },
-  "background": {
-    "service_worker": "service-worker.js"
-  },
+
   "permissions": ["tabs", "activeTab", "downloads", "scripting"]
 }

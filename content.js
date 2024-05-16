@@ -1,10 +1,10 @@
-function injectedFunction() {
-  document.body.style.backgroundColor = 'orange';
-}
+// function injectedFunction() {
+//   document.body.style.backgroundColor = 'orange';
+// }
 
-chrome.action.onClicked.addListener((tab) => {
-  chrome.scripting.executeScript({
-    target: { tabId: tab.id },
-    func: injectedFunction,
-  });
-});
+// chrome.action.onClicked.addListener((tab) => {
+//   chrome.scripting.executeScript({
+//     target: { tabId: tab.id },
+//     func: injectedFunction,
+//   });
+// });
